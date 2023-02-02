@@ -172,7 +172,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: rgb(76, 170, 213);
 }
 
 .navbar-default .navbar-brand {
@@ -197,7 +197,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: rgb(11, 24, 107);
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -269,7 +269,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/img/portada.png');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -551,15 +551,15 @@ section h3.section-subheading {
     }
 
     .timeline>li {
-        margin-bottom: 100px;
-        min-height: 100px;
+        margin-bottom: 0;
+        min-height: 50px;
     }
 
     .timeline>li .timeline-panel {
         float: left;
-        width: 41%;
-        padding: 0 20px 20px 30px;
-        text-align: right;
+        width: 40%;
+        padding: 0 0px 0px 0px;
+        text-align: justify;
     }
 
     .timeline>li .timeline-image {
@@ -570,9 +570,9 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-image h4 {
-        margin-top: 16px;
-        font-size: 13px;
-        line-height: 18px;
+        margin-top: 10px;
+        font-size: 10px;
+        line-height: 10px;
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
@@ -588,12 +588,12 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-panel {
-        padding: 0 20px 20px;
+        padding: 0 10px 10px;
     }
 
     .timeline>li .timeline-image {
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
         margin-left: -75px;
     }
 
@@ -658,7 +658,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    /* background-image: url('{{ site.baseurl }}/img/map-image.png'); */
     background-position: center;
     background-repeat: no-repeat;
 }
