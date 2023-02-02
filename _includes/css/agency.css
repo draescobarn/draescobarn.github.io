@@ -127,7 +127,7 @@ fieldset[disabled] .btn-primary.active {
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: #052F51;
 }
 
 .btn-xl:hover,
@@ -172,7 +172,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: rgb(76, 170, 213);
+    background-color: rgb(200, 216, 223);
 }
 
 .navbar-default .navbar-brand {
@@ -188,7 +188,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-collapse {
-    border-color: rgba(255,255,255,.02);
+    border-color: #e7e5e505;
 }
 
 .navbar-default .navbar-toggle {
@@ -210,11 +210,12 @@ fieldset[disabled] .btn-xl.active {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #6777cf;
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
 }
+
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
@@ -257,7 +258,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: rgba(243, 236, 236, 0.834);
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -657,7 +658,7 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
+    background-color: #052f51;
     /* background-image: url('{{ site.baseurl }}/img/map-image.png'); */
     background-position: center;
     background-repeat: no-repeat;
