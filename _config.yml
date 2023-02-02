@@ -6,42 +6,6 @@ title: Dra. Estela Escobar Norzagaray
 email: dra.escobarn@gmail.com
 description: "Consultorio dental. Odontologia general, radiologia y endodoncia"
 
-
-# Team names, titles and social links
-people:
-- name: O
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
@@ -57,8 +21,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Anacleto Canabal 221-A
+  - line: Villahermosa, Tabasco, 86190
 
 # Build settings
 markdown: kramdown
